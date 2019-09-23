@@ -1,0 +1,45 @@
+
+<view class="site">
+  沃尔玛-光谷店
+</view>
+
+<black wx:for="{{order_products}}">
+<view class="cart">
+  <view class="img">
+    <image src="{{item.Product.image}}"></image>
+  </view>
+  <view class="commodity">
+    <view class="name">
+      <text>{{item.Product.name}}  </text>
+      <text>{{item.Product.body}}</text>
+    </view>
+    <view class="price">
+      <view>
+        <text>￥</text>
+        <text>{{item.Product.price}}</text>
+      </view>
+    </view>
+    <view class="btn">
+    
+      <view class="num">x{{item.number}}</view>
+    </view>
+  </view>
+</view>
+</black>
+
+
+
+<!-- <view class='scangoods'>
+   <view>
+     <image src="../../asstes/image/sm.png"></image>
+   </view>
+  </view> -->
+<view class='foot'>
+  <view class='all'>
+    <text>合计:</text>
+    <text>¥{{total}}</text>
+  </view>
+  <view class='buy' bindtap="wxpay">
+    <text>支付</text>
+  </view>
+</view>

@@ -1,0 +1,186 @@
+page{
+  background-color: rgb(247, 240, 240)
+}
+.tops{
+  width: 100%;
+  height: 180px;
+  background-color: rgb(53, 94, 207);
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-bottom: 240px;
+}
+.stores{
+  padding: 3px 5px 3px 25px;
+  font-size: 12px;
+  color: #0c54b5;
+  font-weight: 500;
+  background-color:#fff;
+  position: fixed;
+  top: 30px;
+  left: calc(50% - 57px);
+  border-radius: 15px;
+}
+.stores text{
+  color: rgba(63, 57, 57, 0.342);
+}
+.stores image{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+.centre{
+  position: absolute;
+  background-color: #fff;
+  margin: 10px;
+  width: 94%;
+  border-radius: 5px;
+  top: 73px;
+}
+.centre_{
+  margin: 20px;
+  width: 100%;
+  height: 100%;
+}
+.centre_ .sweep{
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+.centre_ .explain{
+  font-size: 11px;
+  color: rgb(100, 100, 100);
+  margin: 15px 0;
+}
+.centre_ .explain_{
+  font-size: 11px;
+  color: rgb(247, 99, 1);
+  margin: 15px 0;
+}
+.centre_ .scan{
+  width: 80px;
+  height: 80px;
+  border: 8px solid rgba(245, 239, 239, 0.9);
+  border-radius: 50%;
+  background-color: rgba(255, 106, 6, 0.89);
+  position: fixed;
+  top: 100px;
+  right: 27px;
+}
+.centre_ .scan image{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 16px;
+  left: calc(50% - 15px);
+}
+.centre_ .scan text{
+  font-size: 12px;
+  color: #fff;
+  position: absolute;
+  top: 52px;
+  left: calc(50% - 24px);
+}
+.centre_ .nav{
+  display: flex;
+  width: 88%;
+  padding: 20px 0;
+}
+.centre_ .nav .nav_{
+  flex: 1;
+  font-size: 11px;
+  text-align: center;
+}
+.centre_ .nav .nav_ image{
+  width: 30px;
+  height: 30px;
+}
+.centre_ {
+ position: relative;
+}
+.centre_ .my{
+  display: flex;
+  padding: 20px 0px;
+  width: 88%;
+  position: relative;
+  border-top: 1px solid  rgba(153, 150, 150, 0.2);
+}
+.centre_ .my .discounts{
+  flex: 1;
+  font-size: 11px;
+  text-align: center;
+}
+.centre_ .my .discounts image{
+  width: 25px;
+  height: 25px;
+}
+.centre_ .my .wire{
+  width: 1px;
+  height: 30px;
+  position: absolute;
+  top: 1;
+  left: calc(50% - 0.5px);
+  background-color: rgba(153, 150, 150, 0.2);
+}
+.centre_ .unfold {
+  position: absolute;
+  bottom: -15px;
+  left: calc(44% - 17px);
+  font-size: 10px;
+  color: rgba(22, 21, 21, 0.8);
+  text-align: center;
+  display: none;
+}
+.centre_ .unfold .btn{
+ width: 0px;
+ height: 0px;
+ border: 5px solid;
+ border-color: rgba(14, 13, 13, 0.8)  transparent transparent        transparent;
+ position: absolute;
+ top: 5px;
+ left: 20px;
+}
+.centre_ .unfold_ {
+  position: absolute;
+  bottom: -15px;
+  left: calc(44% - 17px);
+  font-size: 10px;
+  color: rgba(22, 21, 21, 0.8);
+  text-align: center;
+}
+.centre_ .unfold_ .btn{
+ width: 0px;
+ height: 0px;
+ border: 5px solid;
+ border-color:  transparent transparent rgba(14, 13, 13, 0.8)    transparent;
+ position: absolute;
+ top: 0px;
+ left: 20px;
+}
+.base{
+  margin: 10px;
+  display: flex;
+}
+.base .img{
+  margin-right: 10px;
+}
+.base image{
+  width: 100%;
+  height: 55px;
+  border-radius: 5px;
+}
+.bottom{
+  display: flex;
+  font-size: 10px;
+  position: fixed;
+  bottom: 5px;
+  left: calc(50% - 106px);
+  color: rgba(73, 70, 70, 0.8);
+}
+.bottom .bottom_{
+  border-right: 1px solid rgba(153, 150, 150, 0.2);
+}
+.bottom view {
+  padding: 0 30px;
+}

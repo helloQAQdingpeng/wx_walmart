@@ -1,0 +1,62 @@
+<view class="tops">
+  <view class="stores">
+    沃尔玛光谷店 
+    <text> > </text>
+    <image src="../../asstes/image/logo.png"></image>
+  </view>
+</view>
+<!-- /--------------------/ -->
+<view class="centre">
+  <view class="centre_">
+  <view class="sweep">扫商品</view>
+  <view class="explain">扫描商品条码，快速核验出场</view>
+  <view class="explain_">长按扫码按钮可连续扫码哦</view>
+  <view class="nav">
+      <view class="nav_">
+        <image src="../../asstes/image/basket.png"></image>
+        <view>扫码购物篮</view>
+      </view>
+      <view class="nav_">
+        <image src="../../asstes/image/yard.png"></image>
+        <view>出场码</view>
+      </view>
+      <view class="nav_">
+        <image src="../../asstes/image/indent.png"></image>
+        <view>订单</view>
+      </view>
+  </view>
+  <view class="my">
+    <view class="discounts">
+      <image src="../../asstes/image/yh.png"></image>
+       <view>我的优惠卷</view>
+    </view>
+    <view class="discounts">
+      <image src="../../asstes/image/lp.png"></image>
+       <view>礼品卡礼单</view>
+    </view>
+    <view class="wire"></view>
+  </view>  
+  <view class="scan" bindtap="scan">
+    <image src="../../asstes/image/sm.png"></image>
+    <text>开始扫码</text>
+  </view>
+  <view class="unfold">
+    展开
+    <view class="btn"></view>
+  </view>
+  <view class="unfold_">
+    收起
+    <view class="btn"></view>
+  </view>
+  </view>
+</view>
+<!-- --------------------------------------- -->
+<view class="base">
+  <image src="../../asstes/image/lingjuan.jpg" class="img"></image>
+  <image src="../../asstes/image/gmlp.jpg"></image>
+</view>
+
+<view class="bottom">
+  <view class="bottom_">教我使用</view>
+  <view>解绑手机号</view>
+</view>

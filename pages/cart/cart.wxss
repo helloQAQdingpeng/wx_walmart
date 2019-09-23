@@ -1,0 +1,108 @@
+.site{
+  font-size: 12px;
+  padding: 10px;
+  border-bottom: 1px solid rgb(247, 240, 240);
+}
+.cart{
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid rgb(247, 240, 240);
+}
+.cart .img{
+  padding: 20px;
+}
+.cart .img image{
+  width: 60px;
+  height: 60px;
+}
+.cart .commodity{
+  position: relative;
+  width: 100%;
+}
+.cart .commodity .name{
+  font-size: 12px;
+}
+.cart .commodity .price{
+  position: absolute;
+  bottom: 0;
+  color:  rgb(255, 153, 0);
+}
+.cart .commodity .btn{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  border: 1px solid rgb(147, 147, 148);
+  width: 60px;
+}
+.cart .commodity .btn view{
+  text-align: center;
+  line-height: 20px;
+  flex: 1;
+  font-size: 12px;
+}
+.cart .commodity .btn .num{
+  border-left: 1px solid rgb(147, 147, 148);
+  border-right: 1px solid rgb(147, 147, 148);
+}
+
+.scangoods{
+  position: fixed;
+  bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#fff;
+  border-radius:45px 45px 0 0; 
+  border:1px solid gray;
+  border-bottom:none;
+  width: 90px;
+  height: 45px;
+  z-index: 90;
+  left: 10px;
+}
+.scangoods view{
+  position: absolute;
+  top:0px;
+  border:5px solid white; 
+  background-color: orange;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .scangoods image{
+  width: 40px;
+  height: 40px;
+}
+
+.foot{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  border-top:1px solid gray;
+  bottom: 0;
+  height: 45px;
+  padding-left: 100px;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.foot .all{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.all text:nth-child(2){
+  color: orange;
+}
+.foot .buy{
+  background-color: orange;
+  border-top: 1px solid orange;
+  color: white;
+  text-align: center;
+  width: 100px;
+  line-height: 45px;
+}
